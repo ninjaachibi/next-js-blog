@@ -28,10 +28,9 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           <Link href="/posts/first-post">
-            <>
-              <a>First post</a>{''} here
-            </>
+            <a>First post</a>
           </Link>
+          {' '}here
         </p>
       </section>
 
